@@ -1,0 +1,382 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    ::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+    /* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    /* background-color: #007bff; */
+    color: white;
+    padding: 20px;
+    /* box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1); */
+    position: relative;
+    right: 298px;
+    top: 168px;
+
+}
+
+.sidebar h2, .sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar p {
+    margin: 10px 0;
+}
+
+.sidebar button {
+    padding: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sidebar button:hover {
+    background-color: #218838;
+}
+
+/* Content */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+.amount-options, .payment-options {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.deposit-btn {
+    background-color: #28a745;
+    margin-top: 20px;
+}
+
+.deposit-btn:hover {
+    background-color: #218838;
+}
+    body {
+        background-image: url(back1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+h2, h3 {
+    margin: 10px 0;
+}
+
+.amount-options, .payment-options {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #9b207573;
+    color: white;
+    cursor: pointer;
+    border-radius: 42px;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.deposit-btn {
+    background-color: #ad467e;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 13px;
+    font-size: 22px;
+}
+
+.deposit-btn:hover {
+    background-color: #218838;
+}
+.b1{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 268px;
+    top: 195px;
+}
+
+.b2{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 457px;
+    top: 195px;
+
+}
+.b3{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 657px;
+    top: 195px;
+}
+.b4{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 870px;
+    top: 195px;
+
+}
+
+.b5{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 1101px;
+    top: 195px;
+
+}
+.b6{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 268px;
+    top: 310px;
+
+}
+.b7{
+    width: 168px;
+    font-size: 31px;
+    position: fixed;
+    left: 460px;
+    top: 310px;
+}
+.easy{
+    border-radius: 42px;
+    position: relative;
+    right: 450px;
+    top: 500px;
+    width: 139px;
+    height: 83px;
+    font-size: 22px;
+}
+
+
+.jazz{
+
+    border-radius: 42px;
+    position: relative;
+    right: 300px;
+    top: 405px;
+    width: 139px;
+    height: 83px;
+    font-size: 22px;
+
+}
+
+.dep{
+    font-size: 20px;
+    font-size: 78px;
+    position: fixed;
+    top: 11px;
+    right: 400px;
+    color: #e9e9e9;
+}
+
+.pay{
+    color: white;
+    font-size: 28px;
+    position: fixed;
+    top: 440px;
+    right:750px;
+    font-style: italic;
+
+}
+
+.amm{
+    position: fixed;
+    top: 125px;
+    left: 288px;
+    color: white;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.method{
+    color: white;
+    font-style: italic;
+    font-size: 24px;
+    position: relative;
+    left: 394px;
+    top: 210px;
+}
+.add{
+    color: yellow;
+    position: fixed;
+    top: 67px;
+    left: 0px;
+    cursor: pointer;
+}
+.add .hover{
+    color: red;
+}
+.cost{
+    position: relative;
+    left: 1029px;
+    bottom: 180px;
+    color: yellow;
+}
+
+.avail{
+     color: yellow;
+
+    position: relative;
+    right: 73px;
+    top: -30px;
+}
+
+.con{
+
+    color: yellow;
+    font-size: 21px;
+    position: fixed;
+    top: 190px;
+    left: 20px;
+}
+</style>
+<body>
+    <div class="main-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2 class="add"><i class="fa-solid fa-coins"></i> Add Cash</h2>
+            <div class="coins-section">
+                <h3 class="avail"><i class="fa-solid fa-money-bill-wave"></i> Available Coins</h3>
+                <p class="con">Coins: <span id="coins">1000</span></p>
+            </div>
+
+            <div class="customer-care">
+                <h3 class="cost"><i class="fa-solid fa-headset"></i> Customer Care</h3>
+            </div>
+        </div>
+
+    
+    <div class="container">
+        <h2 class="dep">Deposit Amount</h2>
+        <div class="amount-options">
+            <button class="b1" onclick= "selectAmount(200)">200</button>
+            <button class="b2" onclick="selectAmount(300)">300</button>
+            <button class="b3" onclick="selectAmount(400)">400</button>
+            <button class="b4" onclick="selectAmount(500)">500</button>
+            <button class="b5" onclick="selectAmount(600)">600</button>
+            <button class="b6" onclick="selectAmount(1000)">1000</button>
+            <button class="b7" onclick="selectAmount(2000)">2000</button>
+        </div>
+
+        <h3 class="amm">Selected Amount: <span id="selectedAmount">0</span> PKR</h3>
+
+        <h2 class="pay">Select Payment Method</h2>
+        <div class="payment-options">
+            <button class="easy" onclick="selectPaymentMethod('EasyPaisa')">EasyPaisa</button>
+            <button class="jazz" onclick="selectPaymentMethod('JazzCash')">JazzCash</button>
+        </div>
+
+        <h3 class="method">Selected Payment Method: <span id="selectedPayment">None</span></h3>
+
+        <button class="deposit-btn" onclick="confirmDeposit()">Deposit Now</button>
+    </div>
+
+    <script>
+let selectedAmount = 0;
+let selectedPaymentMethod = '';
+let coins = 1000;  // Initial coins value
+
+// Function to select deposit amount
+function selectAmount(amount) {
+    selectedAmount = amount;
+    document.getElementById('selectedAmount').textContent = amount;
+}
+
+// Function to select payment method (e.g., EasyPaisa, JazzCash)
+function selectPaymentMethod(method) {
+    selectedPaymentMethod = method;
+    document.getElementById('selectedPayment').textContent = method;
+}
+
+// Function to confirm the deposit
+function confirmDeposit() {
+    // Check if both amount and payment method are selected
+    if (selectedAmount === 0 || selectedPaymentMethod === '') {
+        alert('Please select both amount and payment method.');
+    } else {
+        alert(`You have selected ${selectedAmount} PKR and ${selectedPaymentMethod}. Proceeding with deposit...`);
+        addCoins(selectedAmount);  // Call the function to add coins
+    }
+}
+
+// Function to add coins to the user's balance
+function addCoins(amount) {
+    coins += amount;  // Update coins balance
+    document.getElementById('coins').textContent = coins;  // Update displayed coins
+}
+
+// Function to contact customer care (placeholder)
+function contactCustomerCare() {
+    alert('Connecting to customer care...');
+    // Logic for contacting customer care can go here (e.g., redirect, chat window)
+}
+    </script>
+</body>
+</html>
